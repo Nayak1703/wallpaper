@@ -1,0 +1,170 @@
+body{
+  font-family : "Montserrat",sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+ font-family: "Montserrat",san-serif;
+ font-weight: 700;
+ font-size: 2rem;
+ line-height: 1.5;
+}
+h4{
+  font-family: "Montserrat",san-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#title{
+  background-color : #4daaa7;
+  color : #fff;
+}
+.container-fluid{
+  padding: 3% 12% 3%;
+  overflow: hidden;
+}
+
+/* navgiation bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-family: "Montserrat",sans-serif;
+  font-weight:300;
+  font-size: 1.2rem;
+}
+
+/* dowload botton */
+ .download-btn{
+   margin: 5% 3% 5% 0;
+ }
+
+ /* title img */
+ .title-img{
+   width: 90%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 5%
+ }
+ .title-img-container{
+   position: relative;
+ }
+ /* Features */
+ #features{
+   padding: 5% 15%;
+   background-color: white;
+   position: relative;
+   z-index: 1;
+ }
+ .features-box{
+   text-align: center;
+   padding: 5%;
+ }
+ .feat-logo{
+   color: #4daaa7;
+   margin-bottom: 1rem;
+ }
+ .feat-h3{
+   font-family: "Montserrat",sans-serif;
+   font-weight: 700;
+   font-size: 140%;
+ }
+ .feat-p{
+   color: #8f8f8f;
+ }
+ .feat-logo:hover{
+  color: #3f8f8b;
+ }
+
+
+ /* testimonials section */
+
+ #testimonials{
+   background-color: #4daaa7;
+   text-align: center;
+   color: #fff;
+ }
+ .carousel-item{
+    padding: 5% 10%;
+ }
+
+
+.test-img{
+  width: 7%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+/* press section */
+
+#press{
+  background-color: #4daaa7;
+  text-align: center;
+  padding: 3%
+}
+.press-logo{
+  width: 10%;
+  margin: 2% 5%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 6%;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* call to action section */
+#cta{
+  background-color: #3f8f8b;
+  text-align: center;
+  padding: 7% 15%;
+}
+.ctah3{
+  color: white;
+  font-family:"Montserrat",san-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+.ftr-btn{
+  color: black;
+  margin: 20px 10px;
+}
+
+@media screen and (max-width : 1023px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: relative;
+    /* transform: rotate(0); */
+  }
+}
